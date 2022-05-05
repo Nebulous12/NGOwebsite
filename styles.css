@@ -1,0 +1,439 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+li,a,button{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: 0.8s;
+}
+.navbtn{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'OpenSans', sans-serif;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    padding: 1rem 3rem;
+    transition: 0.8s;
+    border-radius: 1rem;
+}
+.navbtn:hover{
+    transition: 0.8s;
+    color: rgba(128, 0, 128, 0.7) ;
+}
+
+
+
+header{
+    /* https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbGRyZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60  */
+    height: 100vh;
+    background-image: url(images/larm-rmah-AEaTUnvneik-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+    background-position: top;
+    
+    
+}
+.logo_box{
+    position: absolute;
+    top: 2rem;
+    left: 1.8rem;
+   
+}
+
+.header_logo{
+
+    height: 3.5rem;
+ 
+}
+
+.navbar_links{
+    background-color: #00000daa;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    /* flex-wrap: wrap; */
+    padding: 1.8rem 15%;
+    max-width: 100%;
+}
+.navbar_items{
+    padding: 1rem 4%;
+}
+
+li, a:hover{
+    color: rgba(128, 0, 128, 0.7) ;
+    cursor: pointer;
+}
+.navbar_btn{
+    position: absolute;
+    right: 10rem;
+  
+    
+}
+.orgname{
+    position: absolute;
+    top: 1.8rem;
+    left:6.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+  
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.hidden{
+   display:none;
+}
+.img-blur{
+    filter: blur(4px);
+  -webkit-filter: blur(4px);
+  
+} 
+
+.main_form{
+
+    
+    position: absolute;
+    transform: translate(130%,20%);
+    z-index: 999;
+   
+   
+}
+form { max-width:420px; margin:50px auto; }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    font-weight: 500;
+}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgba(128, 0, 128, 0.819);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid purple; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: purple;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:rgba(128, 0, 128, 0.821); }
+
+.main_heading{
+    width: 570px;
+    background: rgba(128, 0, 128, 0.305);
+    position:absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    color: whitesmoke; 
+    font-family: 'Barlow', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+max-width: 100%;
+}
+.heading{
+    padding: 2rem 3rem;
+}
+.description{
+    padding: 2rem 3rem;
+    color: rgba(233, 231, 239, 0.781);
+    
+}
+
+.primary_heading{
+    display: block;
+    font-size: 5rem;
+}
+.secondary_heading{
+    display: block;
+    font-size: 5rem;
+}
+.primary_description{
+    
+    display: block;
+    padding: 1rem
+}
+.secondary_description{
+    display: block;
+}
+.donation_btn{
+    background:black;
+    border: 3px solid rgba(0, 0, 0, 0.332);
+    outline: none;
+    font-size: 1.5rem;
+    letter-spacing: 0.45rem;
+    padding: 1.2rem 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+     font-family: "montserrat";
+    border-radius: 0.5rem;
+    max-width: 100%;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0,0.1)
+}
+
+.donation_btn:hover,.donation_btn:focus,.donation_btn:active{
+    font-family: "montserrat";
+   color: black;
+   background-color: rgba(128, 0, 128, 0.327);
+   box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.5);
+   transform: scale(1.1);
+  
+}
+
+
+
+.mainbtn{
+    padding: 0 30%;   
+}
+
+.about_para{
+   
+   background-color: rgba(128, 0, 128, 0.299)
+}
+
+
+.abtheading{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.paradesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_primary_heading{
+         font-size: 2rem;
+         line-height: 3;
+         font-style: bold;
+         color: purple;
+        }
+.about_secondary_heading{
+  font-size: 4rem;
+  max-width: 80%;
+  line-height: 1.5;
+
+ 
+  font-family: 'Open Sans', sans-serif;
+color: rgba(0, 0, 0, 0.733)
+}
+.paramain{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph{
+     color: rgba(0, 0, 0, 0.605);
+    font-size: 2.5rem;
+    text-align: left;
+    max-width: 50%;
+    padding: 2rem;
+}    
+.causes{
+    /* background-color: rgba(128, 0, 128, 0.556) */
+  background-color:rgba(128, 0, 122, 0.634);
+}
+.cause_heading{
+    color: purple;
+ 
+font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+
+.container{
+      display: flex;
+       justify-content: center;
+    color: purple;
+     flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.card{ 
+   
+       width: 370px;
+       height: 470px;
+       margin: 50px;
+       background: rgba(255, 255, 255, 0.571);
+       border-radius: 0.93rem;
+       padding: 0.6rem;
+       box-shadow: 0 0 2rem 0;
+}
+
+.card-image,.img-3,.img-2,.img-1{
+     border-radius: 0.9rem 0.9rem 0 0 ;
+    height: 18rem;
+    width: 100%;
+    background-size: cover;
+}
+.card_heading{
+    text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+.card_desc{
+    color: black;
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.footer{
+    background-color: black;
+    padding: 70px  0px;
+    max-width: 100%;
+}
+.footcontainer{
+    max-width: 1170px;
+    margin: auto;
+    height: 30vh;
+}
+.footer_list{
+  list-style: none;
+  line-height: 2.2;
+  margin-left: 4rem;
+   
+  }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-col{
+    width: 25%;
+    padding: 0 0.9375rem;
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 500;
+    color: #ecf0f1d1;
+    position: relative;
+  
+    padding: 4rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    text-decoration: underline solid whitesmoke;
+ 
+}
+h4:hover{
+    transition: 0.8s;
+    color: rgba(128, 0, 128, 0.7) ;
+    cursor: pointer;
+}
+
+.footer-col .socials a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    max-height: 100%;
+    
+    max-width: 100%;
+}
+.footer-col .socials a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media (max-width:699px){
+    .footcontainer{
+        height: 350px;
+    }
+}
+@media (max-width:470px){
+    .container{
+        width: 430px;
+    }
+}
+@media (max-width:768px){
+     .navbar_btn{
+         z-index: -1;
+     }
+     .main_heading{
+          max-width: 100%;
+        width: 400px;
+        height: 400px;
+        transform: translate(-15%,-30%);
+     }
+     .paragraph{
+         max-width: 75%;
+     }
+     
+}
+@media (max-width:479px){
+    .main_heading{
+         transform: translate(-25%,-30%);
+    }
+}
